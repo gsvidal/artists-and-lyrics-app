@@ -3,7 +3,7 @@
   <img src="https://i.postimg.cc/Yqhp4K63/sin-t-tulo-1.png">
 </a> 
 
-A React App where you can search for a song in particular and its singer/band and you will have its lyrics and the singer/band information!
+A React App where you can search for a song and its singer/band and you will get its lyrics and the singer/band information!
 The lyrics data is from <a href="https://lyricsovh.docs.apiary.io/">Lyrics OVH API</a>
 The artists data is from <a href="https://theaudiodb.com/api_guide.php">The Audio DB API</a>  
 
