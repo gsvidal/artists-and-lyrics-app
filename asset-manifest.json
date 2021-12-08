@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/artists-and-lyrics-app/static/css/main.b8f012da.chunk.css",
+    "main.js": "/artists-and-lyrics-app/static/js/main.1b8a5263.chunk.js",
+    "main.js.map": "/artists-and-lyrics-app/static/js/main.1b8a5263.chunk.js.map",
+    "runtime-main.js": "/artists-and-lyrics-app/static/js/runtime-main.1abe55d6.js",
+    "runtime-main.js.map": "/artists-and-lyrics-app/static/js/runtime-main.1abe55d6.js.map",
+    "static/js/2.9664ce60.chunk.js": "/artists-and-lyrics-app/static/js/2.9664ce60.chunk.js",
+    "static/js/2.9664ce60.chunk.js.map": "/artists-and-lyrics-app/static/js/2.9664ce60.chunk.js.map",
+    "static/js/3.567419a7.chunk.js": "/artists-and-lyrics-app/static/js/3.567419a7.chunk.js",
+    "static/js/3.567419a7.chunk.js.map": "/artists-and-lyrics-app/static/js/3.567419a7.chunk.js.map",
+    "index.html": "/artists-and-lyrics-app/index.html",
+    "static/css/main.b8f012da.chunk.css.map": "/artists-and-lyrics-app/static/css/main.b8f012da.chunk.css.map",
+    "static/js/2.9664ce60.chunk.js.LICENSE.txt": "/artists-and-lyrics-app/static/js/2.9664ce60.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/artists-and-lyrics-app/static/media/bg.b9a66638.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1abe55d6.js",
+    "static/js/2.9664ce60.chunk.js",
+    "static/css/main.b8f012da.chunk.css",
+    "static/js/main.1b8a5263.chunk.js"
+  ]
+}
