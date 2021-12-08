@@ -1,13 +1,149 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url("./bg.jpg") top/cover;
+  height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bg-info {
+  background-color: #ffcdd288  !important;
+}
+
+label {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 22px;
+}
+
+legend {
+  position: relative;
+  z-index: 0; 
+  display: inline-block;
+  width: auto;
+  margin: 0;
+  margin-bottom: 60px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+legend::before {
+  position: absolute;
+  content: '';
+  width: calc(100%);
+  display: block;
+  background-color:#EB6864;
+  height: 75px;
+  z-index:-1;
+  transform: rotate(-1deg);
+  transition: transform .3s ease;
+}
+
+legend:hover::before{
+  transform: rotate(2deg);
+}
+
+form.card{
+  border: none;
+}
+
+.lyrics {
+  white-space: pre-wrap;
+}
+
+.card img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin-bottom: 2rem;
+  font-family: 'Work Sans', sans-serif;
+  border-bottom: 3px solid #EB6864;
+  padding-bottom:10px;
+}
+
+h2.artist {
+  border-bottom: 3px solid #3b5998;
+  margin: 0;
+}
+
+.card-body i {
+  font-size: 3rem;
+  margin-right: 3rem;
+}
+.icon {
+  margin: 5px;
+}
+.fa-facebook {
+  color: #3b5998;
+}
+.fa-twitter {
+  color: #0084b4;
+}
+.fa-lastfm {
+  color: #d51007;
+}
+
+.container__lyrics {
+  padding: 20px;
+  background-color: white;
+}
+
+.container__artist {
+  margin-top: 60px;
+  padding: 20px;
+  background-color: white;
+}
+.container__artist-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.artist__pic {
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.artist__info {
+  font-style: italic;
+  color: #00000088;
+}
+
+.button {
+  padding: 10px 30px;
+}
+
+.error__info {
+  padding: 20px 0;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: #ffab91;
+  border: 1px solid red;
+}
+
+@media screen and (min-width: 491px){
+  legend::before {
+    width: calc(110%);
+    height: 50px;
+    z-index:-1;
+    top: -5px;
+    left: -25px;
+    right: -30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  legend::before {
+    width: calc(130%);
+    left: -65px;
+  }
+  .container__artist {
+      margin-top: 0px;
+  }
 }
