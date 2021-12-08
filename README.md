@@ -1,3 +1,37 @@
+# Lyrics & Artist App
+<a href="https://www.gonzalovidal.dev/artists-and-lyrics-app/">
+  <img src="https://i.postimg.cc/Yqhp4K63/sin-t-tulo-1.png">
+</a> 
+
+A React App where you can search for a song in particular and its singer/band and you will have its lyrics and the singer/band information!
+The lyrics data is from <a href="https://lyricsovh.docs.apiary.io/">Lyrics OVH API</a>
+The artists data is from <a href="https://theaudiodb.com/api_guide.php">The Audio DB API</a>  
+
+## Technologies used:
+
+- Create React App.
+
+- Axios npm package.
+
+- 2 API calls in the same useEffect handled with Promise.all
+
+- Documented with Prop Types.
+
+## Features:
+
+- Made with Materialize CSS - Responsive.
+
+- Lyrics and Artist Information
+
+- 3 singer's/band pictures, logo and biography
+
+- There were 2 asyncronous calls, using axios.
+
+- Artist's social networks links available in Bio.
+
+<hr />
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
